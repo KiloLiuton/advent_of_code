@@ -1,1 +1,0 @@
-/home/kevin/src/advent_of_code_puzzles/2022/solutions/target/debug/solutions: /home/kevin/src/advent_of_code_puzzles/2022/solutions/src/day5.rs /home/kevin/src/advent_of_code_puzzles/2022/solutions/src/main.rs
