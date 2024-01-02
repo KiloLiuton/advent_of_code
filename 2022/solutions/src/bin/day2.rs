@@ -88,7 +88,7 @@ fn decode_strategy(strat: &mut Vec<Game>) {
     }
 }
 
-pub fn solution() -> Result<(), String> {
+pub fn main() -> Result<(), String> {
     let strategy = fs::read_to_string("inputs/day2").expect("Can't read input file!");
 
     let mut strategy: Vec<Game> = strategy

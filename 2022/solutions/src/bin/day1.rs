@@ -1,6 +1,6 @@
 use std::fs;
 
-pub fn solution() -> std::io::Result<()> {
+pub fn main() -> std::io::Result<()> {
     let contents = fs::read_to_string("inputs/day1")?;
     let contents = contents.split("\n\n").collect::<Vec<&str>>();
 

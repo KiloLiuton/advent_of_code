@@ -58,7 +58,7 @@ pub fn priority(letter: char) -> i32 {
     }
 }
 
-pub fn solution() -> Result<(), String> {
+pub fn main() -> Result<(), String> {
     let rucksacks: Vec<String> = fs::read_to_string("inputs/day3")
         .expect("Can't read file!")
         .split_terminator("\n")

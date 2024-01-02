@@ -10,7 +10,7 @@ pub struct Move {
     end: i32,
 }
 
-pub fn solution() -> io::Result<()> {
+pub fn main() -> io::Result<()> {
     let f = File::open("inputs/day5")?;
     let f = BufReader::new(f);
     let mut it = f.lines().filter_map(|x| x.ok());

@@ -31,7 +31,7 @@ pub fn overlaps(a: (i32, i32), b: (i32, i32)) -> bool {
     false
 }
 
-pub fn solution() -> Result<(), String> {
+pub fn main() -> Result<(), String> {
     let sections = &fs::read_to_string("inputs/day4").expect("Can't open file!");
     let sections: Vec<&str> = sections.split_terminator("\n").collect();
 
